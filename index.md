@@ -2,122 +2,20 @@
 layout: default
 ---
 
-Text can be **bold**, _italic_, or ~~strikethrough~~.
+Hi there, I'm Alexandre, software developer at <a href="https://www.talentoday.com">Talentoday</a>.
 
-[Link to another page](./another-page.html).
+I dabble mainly in websites development using technologies such as Ruby On Rails, Python3, VueJS, AngularJS. You could say I am a fullstack developer, I have worked in a startup environment for the past 4 years on high velocity projects where everything had to be done from developing websites to making them available online for thousands of people to use and scale both my skills and those of my teammates.
 
-There should be whitespace between paragraphs.
+Find my resume on <a href="https://www.linkedin.com/in/alexandre-chakroun-120b3583/">LinkedIn</a>.
 
-There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.
+# Projects
 
-# Header 1
+- <a href="https://talent-center.talentoday.com">Talentoday Talent Center</a>
+  
+  Talentoday's MyPrint is a Soft Skills questionnaire whose results determine people's personality and motivations.
+  
+  Leveraging your MyPrint results as well as your career and professional project, the Talent Center provides recommendations as to which track you should choose within a University's curriculum.
 
-This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
+- <a href="https://gpulse.fr">gPulse</a>
 
-## Header 2
-
-> This is a blockquote following a header.
->
-> When something is important enough, you do it even if the odds are not in your favor.
-
-### Header 3
-
-```js
-// Javascript code with syntax highlighting.
-var fun = function lang(l) {
-  dateformat.i18n = require('./lang/' + l)
-  return true;
-}
-```
-
-```ruby
-# Ruby code with syntax highlighting
-GitHubPages::Dependencies.gems.each do |gem, version|
-  s.add_dependency(gem, "= #{version}")
-end
-```
-
-#### Header 4
-
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
-
-##### Header 5
-
-1.  This is an ordered list following a header.
-2.  This is an ordered list following a header.
-3.  This is an ordered list following a header.
-
-###### Header 6
-
-| head1        | head two          | three |
-|:-------------|:------------------|:------|
-| ok           | good swedish fish | nice  |
-| out of stock | good and plenty   | nice  |
-| ok           | good `oreos`      | hmm   |
-| ok           | good `zoute` drop | yumm  |
-
-### There's a horizontal rule below this.
-
-* * *
-
-### Here is an unordered list:
-
-*   Item foo
-*   Item bar
-*   Item baz
-*   Item zip
-
-### And an ordered list:
-
-1.  Item one
-1.  Item two
-1.  Item three
-1.  Item four
-
-### And a nested list:
-
-- level 1 item
-  - level 2 item
-  - level 2 item
-    - level 3 item
-    - level 3 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-
-### Small image
-
-![Octocat](https://github.githubassets.com/images/icons/emoji/octocat.png)
-
-### Large image
-
-![Branching](https://guides.github.com/activities/hello-world/branching.png)
-
-
-### Definition lists can be used with HTML syntax.
-
-<dl>
-<dt>Name</dt>
-<dd>Godzilla</dd>
-<dt>Born</dt>
-<dd>1952</dd>
-<dt>Birthplace</dt>
-<dd>Japan</dd>
-<dt>Color</dt>
-<dd>Green</dd>
-</dl>
-
-```
-Long, single-line code blocks should not wrap. They should horizontally scroll if they are too long. This line should be long enough to demonstrate this.
-```
-
-```
-The final element.
-```
+  A platform whose goal is to analyse well being at work by collecting employees' answers to scientifically designed surveys, aggregating results and generating statistical reports.
