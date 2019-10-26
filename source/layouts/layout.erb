@@ -1,0 +1,30 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Use the title from a page's frontmatter if it has one -->
+    <title><%= current_page.data.title %></title>
+    <%= stylesheet_link_tag "site" %>
+    <%= javascript_include_tag "site" %>
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1><a href="/"><%= data.main.title %></a></h1>
+
+        <p><%= data.main.description %></p>
+
+        <p class="view"><a href="<%= data.main.github.owner_url %>">View My GitHub Profile</a></p>
+      </header>
+      <section>
+        <%= yield %>
+      </section>
+      <footer>
+         <p>This project is maintained by <a href="<%= data.main.github.owner_url %>"><%= data.main.github.owner_name %></a></p>
+      </footer>
+    </div>
+  </body>
+</html>
