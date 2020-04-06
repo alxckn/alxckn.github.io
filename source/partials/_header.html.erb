@@ -3,7 +3,7 @@
   <div class="header__job"><%= data.main.description %></div>
   <div class="header__social">
     <% data.main.social.each do |provider_name, provider_url| %>
-      <% link_to provider_url do %>
+      <% link_to provider_url, target: "_blank" do %>
         <%= image_tag "#{provider_name}.svg", alt: provider_name %>
       <% end %>
     <% end %>
