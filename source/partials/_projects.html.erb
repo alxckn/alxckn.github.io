@@ -1,0 +1,10 @@
+<h2>Projects</h2>
+
+<ul>
+  <% data.main.projects.each do |project| %>
+    <li>
+      <p><%= link_to project["name"], project["url"] %></p>
+      <%= md project["description_md"] %>
+    </li>
+  <% end %>
+</ul>

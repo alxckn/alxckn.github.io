@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;0,700;1,400&display=swap');
+
+body {
+  font-family: 'Noto Sans', Helvetica, Arial, sans-serif;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+
+  .header__name, .header__job {
+    margin-bottom: 10px;
+  }
+
+  .header__social {
+    display: flex;
+
+    a {
+      width: 25px;
+      margin: 0 5px;
+    }
+  }
+}
+
+main {
+  @media (min-width: 600px) {
+    max-width: 50%;
+    margin-left: 25%;
+  }
+}

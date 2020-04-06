@@ -1,0 +1,11 @@
+<div class="header">
+  <h1 class="header__name"><%= data.main.title %></h1>
+  <div class="header__job"><%= data.main.description %></div>
+  <div class="header__social">
+    <% data.main.social.each do |provider_name, provider_url| %>
+      <% link_to provider_url do %>
+        <%= image_tag "#{provider_name}.svg", alt: provider_name %>
+      <% end %>
+    <% end %>
+  </div>
+</div>
