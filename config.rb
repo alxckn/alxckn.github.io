@@ -19,6 +19,7 @@ page '/*.txt', layout: false
 # Proxy pages
 # https://middlemanapp.com/advanced/dynamic-pages/
 
+proxy "/dark/index.html", "/index.html", locals: { dark_mode: true }
 # proxy(
 #   '/this-page-has-no-template.html',
 #   '/template-file.html',
